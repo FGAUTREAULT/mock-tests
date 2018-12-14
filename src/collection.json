@@ -1,0 +1,13 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "helloWorld": {
+      "description": "A blank schematic.",
+      "factory": "./mock-tests/tutorial/tutorial#helloWorld"
+    },
+    "myComponent": {
+      "description": "A blank schematic.",
+      "factory": "./mock-tests/tutorial/tutorial#myComponent"
+    }
+  }
+}
